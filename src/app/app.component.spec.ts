@@ -20,10 +20,10 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'Week3'`, () => {
+  it(`should have as title 'Week4'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('Week3');
+    expect(app.title).toEqual('Week4');
   });
 
   it('should render title', () => {
